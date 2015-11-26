@@ -31,18 +31,25 @@ float:right;
 	text-align: center;
 }
 
-.section1 {
-	background-color: white;
-	height:45px;
-    width:1020px;
+
+#ul {
+
+	list-style-type: none;
 }
+
+li {
+	display: inline;
+    padding:10px; 
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 
 .nav {
     font-size: 30px;
-    float:center;
     text-align: center;
-    word-spacing: 2em;
-    padding:5px; 
+    display: inline;
 }
 
 .col-sm-4 .src {
@@ -54,3 +61,4 @@ height:50px;
 .lead {
 	text-align: center;
 }
+
