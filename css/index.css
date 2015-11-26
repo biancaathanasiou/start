@@ -1,0 +1,56 @@
+#social-buttons button { 
+color: white;
+float:right;
+}
+
+.btn-twitter {
+	background-color: #00acee;
+	border-color: #009ad5;
+}
+
+
+.btn-facebook {
+	background-color: #4868ac;
+	border-color: #314776
+}
+
+.btn-pinterest {
+	background-color: #b62f26;
+	border-color: #b62f26
+}
+
+.jumbotron {
+	min-height: 600px;
+	background-image: url('images/fruit.jpg');
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+
+.title {
+	text-align: center;
+}
+
+.section1 {
+	background-color: white;
+	height:45px;
+    width:1020px;
+}
+
+.nav {
+    font-size: 30px;
+    float:center;
+    text-align: center;
+    word-spacing: 2em;
+    padding:5px; 
+}
+
+.col-sm-4 .src {
+height:50px;
+    width:100px;
+
+}
+
+.lead {
+	text-align: center;
+}
