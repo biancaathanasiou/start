@@ -51,4 +51,80 @@ height:50px;
 
 }
 
+#artistname {
+	text-align: center;
+	color: white;
+	background-color: gray;
+	padding: 1px;
+	margin-top: 10px;
+}
+
+#artistpic {
+	margin-top: 50px;
+}
+
+#artistsocial {
+margin-top: 50px;
+	
+
+}
+
+#artistabout {
+margin-top: 40px;
+}
+
+.btn-twit {
+	background-color: #006;
+
+	
+}
+
+.btn-insta {
+	background-color: brown;
+	
+}
+
+.btn-pin {
+	background-color: #b62f26;
+	border-color: #b62f26
+	
+}
+
+.btn-web {
+	background-color: #b62f26;
+	border-color: #b62f26
+	
+}
+
+.social li {
+
+margin-top: 15em;
+
+}
+
+.social ul {
+
+list-style-type: none;
+padding: 0;
+margin: 0;
+text-align: right;
+width: 10em;
+
+}
+	
+#featured {
+	text-align: center;
+	color: white;
+	background-color: gray;
+	padding: 1px;
+	margin-top: 10px;
+}
+
+.paintings {
+
+	margin-top: 10px;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+
 
