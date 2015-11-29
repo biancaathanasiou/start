@@ -1,6 +1,7 @@
 #social-buttons button { 
 color: white;
 float:right;
+margin-top: 10px;
 }
 
 .btn-twitter {
