@@ -33,11 +33,22 @@ float:left;
 
 li {
 	display: inline;
+<<<<<<< HEAD
     background-color: #716973;
     color:white;
     padding:5px;
     padding-left: 15px;
     padding-right:15px;
+=======
+    padding:10px; 
+    background-color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+img {
+	position: absolute;
+>>>>>>> origin/master
 }
 
 .nav {
