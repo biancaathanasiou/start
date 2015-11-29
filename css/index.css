@@ -6,6 +6,9 @@
 #social-buttons button { 
 color: white;
 float:left;
+<<<<<<< HEAD
+>>>>>>> origin/master
+=======
 >>>>>>> origin/master
 }
 
@@ -22,9 +25,12 @@ float:left;
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 
 #menu ul {
 =======
+=======
+>>>>>>> origin/master
 #ul {
 >>>>>>> origin/master
 
@@ -81,12 +87,21 @@ img {
 	font-family: 'Montserrat', sans-serif;
 	padding: 10px;
 	font-size: 15px;
+<<<<<<< HEAD
 }
 
 #img{
 	border:solid;
 }
 
+=======
+}
+
+#img{
+	border:solid;
+}
+
+>>>>>>> origin/master
 a{
 	color:white;
 	font-family: 'Amaranth', sans-serif;
