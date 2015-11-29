@@ -1,61 +1,142 @@
+<<<<<<< HEAD
+#social-buttons img { 
+	height: 50px;
+	float:right;
+=======
 #social-buttons button { 
 color: white;
-float:right;
-margin-top: 10px;
+float:left;
+>>>>>>> origin/master
 }
 
-.btn-twitter {
-	background-color: #00acee;
-	border-color: #009ad5;
+#social-buttons li {
+	
+	list-style-type: none;
+
 }
-
-
-.btn-facebook {
-	background-color: #4868ac;
-	border-color: #314776
-}
-
-.btn-pinterest {
-	background-color: #b62f26;
-	border-color: #b62f26
-}
-
-
 
 .title {
 	text-align: center;
+	font-family: 'Amaranth', sans-serif;
+	color: #584f5a;
 }
 
+<<<<<<< HEAD
 
+#menu ul {
+=======
 #ul {
+>>>>>>> origin/master
 
 	list-style-type: none;
+	background-color: #716973;
 }
 
-li {
+.menu li {
 	display: inline;
+<<<<<<< HEAD
+    background-color: #716973;
+    color:white;
+    padding:5px;
+    padding-left: 15px;
+    padding-right:15px;
+=======
     padding:10px; 
     background-color: white;
     padding-left: 50px;
     padding-right: 50px;
 }
 
+<<<<<<< HEAD
+=======
 img {
 	position: absolute;
+>>>>>>> origin/master
 }
+>>>>>>> origin/master
 
 .nav {
-    font-size: 30px;
+    font-size: 16px;
     text-align: center;
     display: inline;
 }
 
+#name{
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFAAAA;
+}
+
+#mainimage {
+	padding-left: 300px;
+}
 .col-sm-4 .src {
 	height:50px;
     width:100px;
 }
 
-.lead {
+.whoarewe {
 	text-align: center;
+	background:#716973;
+	color:white;
+	font-family: 'Montserrat', sans-serif;
+	padding: 10px;
+	font-size: 15px;
 }
 
+#img{
+	border:solid;
+}
+
+a{
+	color:white;
+	font-family: 'Amaranth', sans-serif;
+	padding:10px;
+}
+
+<!-- CSS styles for standard search box -->
+<style type="text/css">
+  #tfheader{
+    background-color:#c3dfef;
+  }
+  #tfnewsearch{
+    float:right;
+    padding:20px;
+  }
+  .tftextinput{
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    border:1px solid #9e98a0; border-right:0px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+  }
+  .tfbutton {
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #9e98a0; border-right:0px;
+    background: #9e98a0;
+    background: -webkit-gradient(linear, left top, left bottom, from(##9e98a0), to(##9e98a0));
+    background: -moz-linear-gradient(top,  ##9e98a0,  ##9e98a0);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+  }
+  .tfbutton:hover {
+    text-decoration: none;
+    background: ##9e98a0;
+    background: -webkit-gradient(linear, left top, left bottom, from(##9e98a0), to(##9e98a0));
+    background: -moz-linear-gradient(top,  ##9e98a0,  ##9e98a0);
+  }
+  /* Fixes submit button height problem in Firefox */
+  .tfbutton::-moz-focus-inner {
+    border: 0;
+  }
+  .tfclear{
+    clear:both;
