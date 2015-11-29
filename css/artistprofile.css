@@ -26,12 +26,12 @@ margin-top: 10px;
 }
 
 
-#ul {
+#menu ul {
 
 	list-style-type: none;
 }
 
-li {
+.menu li {
 	display: inline;
     padding:10px; 
     background-color: white;
@@ -62,6 +62,8 @@ height:50px;
 
 #artistpic {
 	margin-top: 50px;
+	margin-left: 20px;
+	margin-bottom: 50px;
 }
 
 #artistsocial {
@@ -72,46 +74,45 @@ margin-top: 50px;
 
 #artistabout {
 margin-top: 40px;
+
 }
 
 .btn-twit {
-	background-color: #006;
+	background-color: #4099FF;
+	border-radius: 15px;
+	height: 80px;
+	width: 200px;
+	font-weight: bold;
 
 	
 }
 
 .btn-insta {
 	background-color: brown;
-	
+	border-radius: 15px;
+	height: 80px;
+	width: 200px;
+	font-weight: bold;
 }
 
 .btn-pin {
 	background-color: #b62f26;
-	border-color: #b62f26
+	border-radius: 15px;
+	height: 80px;
+	width: 200px;
+	font-weight: bold;
 	
 }
 
 .btn-web {
 	background-color: #b62f26;
-	border-color: #b62f26
-	
+	border-radius: 15px;
+	height: 80px;
+	width: 200px;
+	font-weight: bold;
 }
 
-.social li {
 
-margin-top: 15em;
-
-}
-
-.social ul {
-
-list-style-type: none;
-padding: 0;
-margin: 0;
-text-align: right;
-width: 10em;
-
-}
 	
 #featured {
 	text-align: center;
@@ -128,4 +129,28 @@ width: 10em;
 	margin-left: 20px;
 }
 
+.social1 img {
+
+	height: 50px;
+	margin-top: 20px;
+}
+
+.social2 li {
+	margin-top: 45px;
+	margin-right: 20px;
+	font-weight: bold;
+
+}
+
+.social2 ul {
+
+	list-style-type: none;
+
+}
+
+.social1 ul {
+
+	list-style-type: none;
+
+}
 
