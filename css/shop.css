@@ -1,42 +1,32 @@
-#social-buttons button { 
-color: white;
-float:right;
-margin-top: 10px;
+#social-buttons img { 
+	height: 50px;
+	float:right;
 }
 
-.btn-twitter {
-	background-color: #00acee;
-	border-color: #009ad5;
+#social-buttons li {
+	
+	list-style-type: none;
+
 }
-
-
-.btn-facebook {
-	background-color: #4868ac;
-	border-color: #314776
-}
-
-.btn-pinterest {
-	background-color: #b62f26;
-	border-color: #b62f26
-}
-
 
 .title {
 	text-align: center;
+
 }
 
 
-#ul {
+#menu ul {
 
 	list-style-type: none;
 }
 
-li {
+.menu li {
 	display: inline;
     padding:10px; 
     background-color: white;
     padding-left: 50px;
     padding-right: 50px;
+
 }
 
 
@@ -44,6 +34,7 @@ li {
     font-size: 30px;
     text-align: center;
     display: inline;
+
 }
 
 .col-sm-4 .src {

@@ -8,6 +8,10 @@
 
   <link href= 'css/bootstrap.css' rel='stylesheet'>
   <link rel="stylesheet" type="text/css" href="css/index.css">
+  <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
+  <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
+
 
   <meta name= "viewport" content="width=device-width, initial-scale=1.0">
 
@@ -17,12 +21,23 @@
 
 <div class='container'>
 
-
+  <div id="tfheader">
+    <form id="tfnewsearch" method="get" action="http://www.google.com">
+            <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
+    </form>
+  <div class="tfclear"></div>
+  </div>
 
 <div id='social-buttons'>
-      <button class='btn-twitter'>Twitter</button>
-      <button class='btn-facebook'>Facebook</button>
-      <button class='btn-pinterest'>Pinterest</button>
+
+  <ul>
+
+<li> <a href="http://www.twitter.com"><img src='images/twit1.png'></a> </li>
+<li> <a href="http://www.pinterest.com"><img src='images/pin1.png'></a></li>
+<li> <a href="http://www.facebook.com"><img src='images/fb1.png'></a></li>
+
+</ul>
+
     </div>
 
 <div class='title'>
@@ -56,29 +71,39 @@
   </div>
 </div>
 
+<div class='mainimage'>
 
-<img src="../indexmain.jpeg">
+<img src="./images/indexmain.jpg" width='1000px' height='auto'>
+
+</div>
 
 <br>
- <p class="lead">We are x.</p>
-    <p class="lead">This is what we do.</p>
-    <p class="lead">Check out our page!</p>
+<div class='whoarewe'>
+ <p class="lead">We are StART</p>
+    <p class="lead"> We are not just an online gallery! We help graduate and young artists to establish their careers in the art industry. We sell all different mediums from paintings to pottery! StART offers our purchasers the opportunity to invest in the artists of the future. </p>
+    <p class='lead'>StART your collection. </p>
+    <p class="lead">Check out some of our featured artists below or click on the links above to explore StART. </p>
 <br>
+</div>
 
      <div id="featured">
+    <div class='featuredartists'>
 
-    <h2>Featured stuff</h2>
-
+    <h2>Our Featured Artists</h2>
+  </div>
 
   <div class='row'>
     <div class='col-sm-4'>
 
-  <div>
+  <div class='artist1'>
 
      <blockquote>
-      <p>This is picture 1</p>
+      <img src= "./images/johncole.jpg" width='200px' height='150px'>
+      <div id='name'>
+      <p>John Cole</p>
+    </div>
        </blockquote>
-      <small>Bit more information - price??</small>
+      <small>Up and coming artist John Cole has shown won 'Young Artist of the Year' competition. View and buy his work here!</small>
 
     </div>
 
@@ -88,29 +113,36 @@
 
  <div>
       <blockquote>
-      <p>This is picture 2</p>
+        <img src= "./images/amandareach.jpeg" width='200px' height='150px'>
+      <div id='name'>
+      <p>Amanda Reach</p>
+    </div>
       </blockquote>
-       <small>Bit more information - price??</small>
+       <small>Amanda graduated from Brighton last year and has just finished her 'Falling' collection. View and buy here!</small>
     </div>
 
   </div>
+
 
  <div class='col-sm-4'>
 
 
     <div>
       <blockquote>
-      <p>This is picture 3</p>
+         <img src= "./images/emilyjones.jpg" width='200px' height='150px'>
+      <div id='name'>
+      <p>Emily Jones</p>
+    </div>
       </blockquote>
-      <small>Bit more information - price??</small>
+      <small>Award winning potter Emily Jones has launched her first ever collection for StART. Take a look here!</small>
     
     </div> 
 
   </div>
 
 </div>
+</div>
 
-  </div>
 
 
 

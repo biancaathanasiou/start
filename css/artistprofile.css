@@ -1,25 +1,13 @@
-#social-buttons button { 
-color: white;
-float:right;
-margin-top: 10px;
+#social-buttons img { 
+	height: 50px;
+	float:right;
 }
 
-.btn-twitter {
-	background-color: #00acee;
-	border-color: #009ad5;
+#social-buttons li {
+	
+	list-style-type: none;
+
 }
-
-
-.btn-facebook {
-	background-color: #4868ac;
-	border-color: #314776
-}
-
-.btn-pinterest {
-	background-color: #b62f26;
-	border-color: #b62f26
-}
-
 
 .title {
 	text-align: center;
