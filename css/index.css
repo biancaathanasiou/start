@@ -1,15 +1,20 @@
-
 #social-buttons img { 
-	height: 50px;
-	float:right;
+  height: 50px;
+  float:right;
 }
-
 
 #social-buttons li {
-	
-	list-style-type: none;
+  
+  list-style-type: none;
+  display: inline;
 
 }
+
+
+#tfheader {
+  float: right;
+}
+
 
 .title {
 	text-align: center;
