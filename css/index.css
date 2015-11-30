@@ -20,6 +20,7 @@
 	text-align: center;
 	font-family: 'Amaranth', sans-serif;
 	color: #584f5a;
+	padding-left: 60px;
 }
 
 
@@ -42,18 +43,18 @@
 
 
 .nav {
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     display: inline;
 }
-
 #name{
 	font-family: 'Gloria Hallelujah', cursive;
 	color: #FFAAAA;
+	font-size: 20px;
 }
 
 #mainimage img {
-	padding-left: 300px;
+  padding-left: 300px;
   position: absolute;
   text-align: center;
 }
@@ -62,14 +63,16 @@
 	height:50px;
     width:100px;
 }
+.col-sm-4{
+	padding-bottom: 20px;
+}
 
 .whoarewe {
 	text-align: center;
-	background:#716973;
-	color:white;
-	font-family: 'Montserrat', sans-serif;
+	color:black;
+	font-family: 'PT Sans', sans-serif;
 	padding: 10px;
-	font-size: 15px;
+	font-size: 10px;
 }
  
 #img {
@@ -85,6 +88,21 @@ a{
 	color:white;
 	font-family: 'Amaranth', sans-serif;
 	padding:10px;
+}
+#artists1{
+	font-size:20px;
+	font-family: 'PT Sans', sans-serif;
+}
+.bottom {
+	background:#584f5a;
+	padding-left: 100px;
+	text-align: center;
+	padding: 2px;
+	color:white;
+}
+
+.featured{ 
+padding-bottom: 10px;
 }
 
 <!-- CSS styles for standard search box -->

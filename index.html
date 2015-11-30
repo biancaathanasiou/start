@@ -10,8 +10,8 @@
   <link rel="stylesheet" type="text/css" href="css/index.css">
   <link href='https://fonts.googleapis.com/css?family=Amaranth' rel='stylesheet' type='text/css'>
   <link href='https://fonts.googleapis.com/css?family=Gloria+Hallelujah' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Slabo+27px' rel='stylesheet' type='text/css'>
-
+  <link href='https://fonts.googleapis.com/css?family=PT+Sans' rel='stylesheet' type='text/css'>
+  <script type="text/javascript" src="./scriptfile.js"></script>
 
   <meta name= "viewport" content="width=device-width, initial-scale=1.0">
 
@@ -21,18 +21,6 @@
 
 <div class='container'>
 
-    <div id='social-buttons'>
-
-  <ul>
-
-<li> <a href="http://www.twitter.com"><img src='images/twit1.png'></a> </li>
-<li> <a href="http://www.pinterest.com"><img src='images/pin1.png'></a></li>
-<li> <a href="http://www.facebook.com"><img src='images/fb1.png'></a></li>
-
-</ul>
- </div>
-<br>
-
   <div id="tfheader">
     <form id="tfnewsearch" method="get" action="http://www.google.com">
             <input type="text" class="tftextinput" name="q" size="21" maxlength="120"><input type="submit" value="search" class="tfbutton">
@@ -40,13 +28,17 @@
   <div class="tfclear"></div>
   </div>
 
-
+<div id='social-buttons'>
+      <button class='btn-twitter'>Twitter</button>
+      <button class='btn-facebook'>Facebook</button>
+      <button class='btn-pinterest'>Pinterest</button>
+    </div>
 
 <div class='title'>
     <div class='row'>
        <div class='col-sm-12'>
 
-       <h1>Welcome to StART</h1>
+       <h1>Welcome to StART</h1> 
 
        </div>
 
@@ -61,10 +53,9 @@
 
   <div class='nav'>
 <ul class='menu'>
-   <li> <a href="index.html">Home</a> </li>
-  <li> <a href="aboutus.html">About us</a> </li>
-  <li> <a href="artistprofile.html">Artist Profiles</a> </li>
-  <li> <a href="shop.html">Shop</a> </li>
+  <li> <a href="http://www.facebook.com">About us</a> </li>
+  <li> <a href="http://www.facebook.com">Artist Profiles</a> </li>
+  <li> <a href="http://www.facebook.com">Shop</a> </li>
 </ul>
  
 </div>
@@ -75,7 +66,9 @@
 
 <div class='mainimage'>
 
-<img src="./images/indexmain.jpg" width='1000px' height='auto'>
+<layer id="placeholderlayer"></layer><div id="placeholderdiv"></div>
+
+<img src="./images/indexmain.jpg" width='1138px' height='auto' align='center'>
 
 </div>
 
@@ -146,21 +139,19 @@
 </div>
 
 
+<div class='row'>
+  <div class='bottom'>
+
+<p>&copy StART 2015 </p>
+
+
+</div>
+</div>
+</div> 
 
 
   <div id="postscript">
 
-<br>
-<br>
-<br>
-<h2>Haven't found what you're looking for?</h2>
-
-
-
-
-
-    
-  </div>
 </div>
 
 
