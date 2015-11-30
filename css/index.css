@@ -1,16 +1,9 @@
-<<<<<<< HEAD
+
 #social-buttons img { 
 	height: 50px;
 	float:right;
-=======
-#social-buttons button { 
-color: white;
-float:left;
-<<<<<<< HEAD
->>>>>>> origin/master
-=======
->>>>>>> origin/master
 }
+
 
 #social-buttons li {
 	
@@ -24,45 +17,27 @@ float:left;
 	color: #584f5a;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 
 #menu ul {
-=======
-=======
->>>>>>> origin/master
-#ul {
->>>>>>> origin/master
 
 	list-style-type: none;
-	background-color: #716973;
+
 }
 
 .menu li {
-	display: inline;
-<<<<<<< HEAD
+  display: inline;
     background-color: #716973;
     color:white;
     padding:5px;
     padding-left: 15px;
     padding-right:15px;
-=======
-    padding:10px; 
-    background-color: white;
-    padding-left: 50px;
-    padding-right: 50px;
-}
 
-<<<<<<< HEAD
-=======
-img {
-	position: absolute;
->>>>>>> origin/master
-}
->>>>>>> origin/master
+  }
+
 
 .nav {
-    font-size: 16px;
+    font-size: 30px;
     text-align: center;
     display: inline;
 }
@@ -72,9 +47,12 @@ img {
 	color: #FFAAAA;
 }
 
-#mainimage {
+#mainimage img {
 	padding-left: 300px;
+  position: absolute;
+  text-align: center;
 }
+
 .col-sm-4 .src {
 	height:50px;
     width:100px;
@@ -87,21 +65,17 @@ img {
 	font-family: 'Montserrat', sans-serif;
 	padding: 10px;
 	font-size: 15px;
-<<<<<<< HEAD
 }
-
-#img{
+ 
+#img {
 	border:solid;
 }
 
-=======
-}
-
-#img{
+#img {
 	border:solid;
 }
 
->>>>>>> origin/master
+
 a{
 	color:white;
 	font-family: 'Amaranth', sans-serif;
