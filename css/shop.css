@@ -139,6 +139,9 @@ a{
   text-align: center;
 }
 
+#paintingtitle {
+  font-style: bold;
+}
 #viewed {
   text-align: center;
   color: white;
