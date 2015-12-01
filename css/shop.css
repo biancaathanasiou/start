@@ -34,7 +34,6 @@
   }
 
 
-
 .nav {
     font-size: 30px;
     text-align: center;
@@ -103,4 +102,30 @@ a{
     padding:10px;
 }
 
+    #buybutton {
+      padding:150px 20px;
+      background: ##9e98a0;
+      text-align: center;
+      font-family: 'arial';
+      color: #FFAAAA;
+      background-color: gray;
+      padding: 40px;
+      margin-top: 10px;
+
+    }
+
+    .paintings {
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+#viewed {
+  text-align: center;
+  color: white;
+  background-color: gray;
+  padding: 1px;
+  margin-top: 10px;
+}
 
