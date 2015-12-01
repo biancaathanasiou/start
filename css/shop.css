@@ -121,6 +121,15 @@ a{
   margin-left: 20px;
 }
 
+#basket{
+  background: #FFAAAA;
+  padding: 40px;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 #viewed {
   text-align: center;
   color: white;
