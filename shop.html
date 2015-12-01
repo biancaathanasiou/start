@@ -102,16 +102,54 @@
                     <h4>£200</h4>
                   </div>
 
-                  <div id="basket">
+                  
+
+<div id="basket"> 
+
+<button onclick="myFunction()">Add to basket</button>
+
+<p id="buy"></p>
+
+<script>
+function myFunction() {
+    var x;
+    if (confirm("Item added to basket! Click cancel to remove.") == true) {
+        x = "Item is in the basket";
+    } else {
+        x = "Item removed from basket";
+    }
+    document.getElementById("buy").innerHTML = x;
+}
+</script>
+
+ </div>
 
 
-                    <p>Add to basket</p>
+
+<div id="wishlist">
+
+<button onclick="myFunction()">Add to wishlist</button>
+
+<p id="wish"></p>
+
+<script>
+function myFunction() {
+    var x;
+    if (confirm("Item added to wishlist! Click cancel to remove.") == true) {
+        x = "Item is added to wishlist";
+    } else {
+        x = "Item removed from wishlist";
+    }
+    document.getElementById("wish").innerHTML = x;
+}
+</script>
+
+
+
+
 
                   </div>
 
-                  <div id="wishlist">
-                    <p>Add to wishlist</p>
-                  </div>
                 
                 <div id="details">
                 <p>Dimensions (HxWxD): 41 × 30 × 3.5 cm

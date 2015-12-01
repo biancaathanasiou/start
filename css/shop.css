@@ -102,17 +102,7 @@ a{
     padding:10px;
 }
 
-    #buybutton {
-      padding:150px 20px;
-      background: ##9e98a0;
-      text-align: center;
-      font-family: 'arial';
-      color: #FFAAAA;
-      background-color: gray;
-      padding: 40px;
-      margin-top: 10px;
-
-    }
+  
 
     .paintings {
 
@@ -128,6 +118,14 @@ a{
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
+
+}
+
+#basket button {
+  background-color: #FFAAAA;
+    padding: 10 20 30 40;
+    width: 415px;
+
 }
 
 #wishlist{
@@ -137,6 +135,12 @@ a{
   font-size: 20px;
   margin-bottom: 10px;
   text-align: center;
+}
+
+#wishlist button {
+background-color: #FFAAAA;
+    padding: 10 20 30 40;
+    width: 415px;
 }
 
 #paintingtitle {
