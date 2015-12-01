@@ -130,6 +130,15 @@ a{
   text-align: center;
 }
 
+#wishlist{
+  background: #FFAAAA;
+  padding: 10 20 30 40;
+  color: white;
+  font-size: 20px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
 #viewed {
   text-align: center;
   color: white;
