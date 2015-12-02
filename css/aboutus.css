@@ -105,3 +105,190 @@ a{
     padding:10px;
 }
 
+#artistname {
+  text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #FFAAAA;
+  background-color: gray;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+
+
+#founderpic {
+  margin-top: 50px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+}
+
+#artistsocial {
+margin-top: 50px;
+  
+
+}
+
+#artistabout {
+margin-top: 40px;
+  color:black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
+
+}
+
+}
+
+.btn-twit {
+  background-color: #4099FF;
+  border-radius: 15px;
+  height: 80px;
+  width: 200px;
+  font-weight: bold;
+
+  
+}
+
+.btn-insta {
+  background-color: brown;
+  border-radius: 15px;
+  height: 80px;
+  width: 200px;
+  font-weight: bold;
+}
+
+.btn-pin {
+  background-color: #b62f26;
+  border-radius: 15px;
+  height: 80px;
+  width: 200px;
+  font-weight: bold;
+  
+}
+
+.btn-web {
+  background-color: #b62f26;
+  border-radius: 15px;
+  height: 80px;
+  width: 200px;
+  font-weight: bold;
+}
+
+
+  
+#featured {
+  text-align: center;
+  color: white;
+  background-color: gray;
+  padding: 1px;
+  margin-top: 10px;
+}
+
+.paintings {
+
+  margin-top: 10px;
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.social1 img {
+
+  height: 50px;
+  margin-top: 20px;
+}
+
+.social2 li {
+  margin-top: 45px;
+  margin-right: 20px;
+  font-weight: bold;
+  
+
+}
+
+.social2 ul {
+
+  list-style-type: none;
+
+}
+
+.social1 ul {
+
+  list-style-type: none;
+
+}
+
+
+<!-- CSS styles for standard search box -->
+<style type="text/css">
+  #tfheader{
+    background-color:#c3dfef;
+  }
+  #tfnewsearch{
+    float:right;
+    padding:20px;
+  }
+  .tftextinput{
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    border:1px solid #9e98a0; border-right:0px;
+    border-top-left-radius: 5px 5px;
+    border-bottom-left-radius: 5px 5px;
+  }
+  .tfbutton {
+    margin: 0;
+    padding: 5px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:14px;
+    outline: none;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    color: #ffffff;
+    border: solid 1px #9e98a0; border-right:0px;
+    background: #9e98a0;
+    background: -webkit-gradient(linear, left top, left bottom, from(##9e98a0), to(##9e98a0));
+    background: -moz-linear-gradient(top,  ##9e98a0,  ##9e98a0);
+    border-top-right-radius: 5px 5px;
+    border-bottom-right-radius: 5px 5px;
+  }
+  .tfbutton:hover {
+    text-decoration: none;
+    background: ##9e98a0;
+    background: -webkit-gradient(linear, left top, left bottom, from(##9e98a0), to(##9e98a0));
+    background: -moz-linear-gradient(top,  ##9e98a0,  ##9e98a0);
+  }
+  /* Fixes submit button height problem in Firefox */
+  .tfbutton::-moz-focus-inner {
+    border: 0;
+  }
+  .tfclear{
+    clear:both;
+
+}
+
+a{
+  color:white;
+  font-family: 'Amaranth', sans-serif;
+  padding:10px;
+}
+
+ .animated {
+    -webkit-transition: height 0.2s;
+    -moz-transition: height 0.2s;
+    transition: height 0.2s;
+}
+
+.stars
+{
+    margin: 20px 0;
+    font-size: 24px;
+    color: #d17581;
+}
+
+.container
+{
+margin:auto;
+text-align: center;
+
+}
