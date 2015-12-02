@@ -194,7 +194,7 @@ margin-top: 40px;
   margin-top: 20px;
 }
 
-.social2 li {
+.quotes li {
   margin-top: 45px;
   margin-right: 20px;
   font-weight: bold;
@@ -202,7 +202,7 @@ margin-top: 40px;
 
 }
 
-.social2 ul {
+.quotes ul {
 
   list-style-type: none;
 
@@ -284,10 +284,29 @@ a{
     color: #d17581;
 }
 
-.review_box
-{
-margin:auto;
-float: none;
+
+h2 {
+padding-top: 30px;
+padding-left: 40px;
 font-family: 'Amaranth', sans-serif;
 
+}
+
+#founderpic
+{
+padding-top: 80px;
+
+}
+
+
+#review 
+{
+ display:inline-block;
+
+}
+
+.5star
+{
+height: auto;
+width: 40px;
 }
