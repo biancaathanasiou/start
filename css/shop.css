@@ -154,6 +154,7 @@ background-color: #FFAAAA;
   background-color: gray;
   padding: 1px;
   margin-top: 10px;
+  font-family: 'Amaranth', sans-serif;
 }
 
 #artimage {
@@ -171,5 +172,8 @@ background-color: #FFAAAA;
 #artdescription {
 
   margin-right: 10px;
+  color:black;
+  font-family: 'PT Sans', sans-serif;
+  font-size: 15px;
 }
 

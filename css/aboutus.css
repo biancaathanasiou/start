@@ -321,3 +321,17 @@ background: #716973;
 height: auto;
 width: 100px;
 }
+
+#comment {
+  margin-left: 50px;
+}
+
+#comment p {
+
+  font-size: 15px;
+}
+
+#form {
+  margin-left: 20px;
+  margin-top: 30px;
+}
