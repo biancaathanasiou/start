@@ -106,7 +106,7 @@ a{
 
     .paintings {
 
-  margin-top: 10px;
+  margin-top: 30px;
   margin-bottom: 20px;
   margin-left: 20px;
 }
@@ -155,4 +155,9 @@ background-color: #FFAAAA;
 #artimage {
   padding-top: 20px;
 }
+
+#viewed {
+  margin-top: 30px;
+}
+
 
