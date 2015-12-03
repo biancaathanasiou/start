@@ -10,6 +10,10 @@
 
 }
 
+#tfheader {
+  float: right;
+}
+
 .title {
     text-align: center;
     font-family: 'Amaranth', sans-serif;
@@ -160,4 +164,12 @@ background-color: #FFAAAA;
   margin-top: 30px;
 }
 
+#price h4 {
+  font-size: 40px;
+}
+
+#artdescription {
+
+  margin-right: 10px;
+}
 
