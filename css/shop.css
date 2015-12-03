@@ -10,6 +10,7 @@
 
 }
 
+
 #tfheader {
   float: right;
 }
@@ -108,11 +109,12 @@ a{
 
   
 
-    .paintings {
+.paintings {
 
   margin-top: 30px;
   margin-bottom: 20px;
-  margin-left: 20px;
+  margin-left: 0px;
+  text-align: center;
 }
 
 
@@ -147,23 +149,25 @@ background-color: #FFAAAA;
 #paintingtitle {
   font-style: bold;
 }
+
 #viewed {
-  text-align: center;
+text-align: center;
   color: white;
-  font-size: 20px;
   background-color: gray;
   padding: 1px;
   margin-top: 10px;
   font-family: 'Amaranth', sans-serif;
+  font-size: 25px;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 60px;
+
 }
 
 #artimage {
   padding-top: 20px;
 }
 
-#viewed {
-  margin-top: 30px;
-}
 
 #price h4 {
   font-size: 40px;
