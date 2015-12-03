@@ -115,9 +115,10 @@ a{
 
 
 #founderpic {
-  margin-top: 50px;
+  
   margin-left: 20px;
   margin-bottom: 50px;
+  padding-top: 0px;
 }
 
 #artistsocial {
@@ -127,12 +128,11 @@ margin-top: 50px;
 }
 
 #artistabout {
-margin-top: 40px;
+margin-top: 10px;
   color:black;
   font-family: 'PT Sans', sans-serif;
   font-size: 15px;
 
-}
 
 }
 
@@ -308,6 +308,7 @@ background: #716973;
 #review 
 {
  display:inline-block;
+ margin-left: 240px;
 
 }
 

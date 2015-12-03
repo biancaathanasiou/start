@@ -49,11 +49,10 @@ height:50px;
 
 #artistname {
 	text-align: center;
-	font-family: 'Gloria Hallelujah', cursive;
-	color: #FFAAAA;
 	background-color: gray;
 	padding: 1px;
 	margin-top: 10px;
+
 }
 
 
@@ -78,7 +77,12 @@ margin-top: 40px;
 
 }
 
+#artistabout h1 {
+	font-family: 'Gloria Hallelujah', cursive;
+	color: #FFAAAA;
+
 }
+
 
 .btn-twit {
 	background-color: #4099FF;
@@ -127,7 +131,7 @@ margin-top: 40px;
 
 .paintings {
 
-	margin-top: 10px;
+	margin-top: 30px;
 	margin-bottom: 20px;
 	margin-left: 20px;
 }
@@ -142,7 +146,7 @@ margin-top: 40px;
 	margin-top: 45px;
 	margin-right: 20px;
 	font-weight: bold;
-	
+
 
 }
 
@@ -214,3 +218,9 @@ a{
 	font-family: 'Amaranth', sans-serif;
 	padding:10px;
 }
+
+small {
+	font-weight: bold;
+
+}
+

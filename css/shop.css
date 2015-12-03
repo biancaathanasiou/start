@@ -111,36 +111,33 @@ a{
   margin-left: 20px;
 }
 
-#basket{
-  background: #FFAAAA;
-  padding: 10 20 30 40;
-  color: white;
-  font-size: 20px;
-  margin-bottom: 10px;
-  text-align: center;
 
-}
 
 #basket button {
   background-color: #FFAAAA;
     padding: 10 20 30 40;
-    width: 415px;
+    width: 300px;
+    font-size: 20px;
+    color: white;
 
 }
 
-#wishlist{
-  background: #FFAAAA;
-  padding: 10 20 30 40;
-  color: white;
-  font-size: 20px;
-  margin-bottom: 10px;
+#artistname {
   text-align: center;
+  font-family: 'Gloria Hallelujah', cursive;
+  color: #FFAAAA;
+  background-color: gray;
+  padding: 1px;
+  margin-top: 10px;
 }
+
 
 #wishlist button {
 background-color: #FFAAAA;
     padding: 10 20 30 40;
-    width: 415px;
+    width: 300px;
+    font-size: 20px;
+    color: white;
 }
 
 #paintingtitle {
@@ -153,5 +150,9 @@ background-color: #FFAAAA;
   background-color: gray;
   padding: 1px;
   margin-top: 10px;
+}
+
+#artimage {
+  padding-top: 20px;
 }
 
